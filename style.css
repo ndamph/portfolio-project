@@ -1,0 +1,140 @@
+:root {
+  --primary-color: #6c63ff;
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+body {
+  margin: 60px auto;
+  max-width: 800px;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+h1 {
+  font-size: 68px;
+}
+
+.greeting h2 {
+  font-size: 48px;
+  padding-top: 40px;
+}
+
+h3 {
+  font-size: 24px;
+  opacity: 0.7;
+  margin: 10px;
+}
+
+p {
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.navigation-links {
+  display: flex;
+  margin: 40px 0;
+  justify-content: center;
+}
+
+.navigation-links a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.contact-link {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+
+.contact-link:hover {
+  color: #1859d1;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+}
+
+.about-link {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.about-link:hover {
+  color: #1859d1;
+  border: 1px solid var(--primary-color);
+}
+
+.homepage-link {
+  color: var(--primary-color);
+  text-align: center;
+  display: block;
+}
+
+.about-paragraphs {
+  display: flex;
+  margin: 20px 0;
+}
+
+.about-paragraphs p {
+  margin: 15px 0;
+}
+
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
+
+.project-links {
+  background: var(--primary-color);
+  color: white;
+  box-shadow: var(--box-shadow);
+  padding: 15px 10px;
+}
+
+.project-links:hover {
+  color: #1859d1;
+  background: var(--primary-color);
+}
+
+.card-body-content {
+  background: transparent;
+  text-align: left;
+  padding: 0;
+}
+
+.img-fluid {
+  height: auto;
+  max-width: 100%;
+}
+
+.body-padding {
+  padding-top: 90px;
+}
+
+.card-title-font {
+  font-size: 48px;
+}
+
+.contact-label {
+  margin: 35px;
+}
+
+.contact-label h2 {
+  font-size: 42px;
+}
