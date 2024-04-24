@@ -19,11 +19,6 @@ h1 {
   font-size: 68px;
 }
 
-.greeting h2 {
-  font-size: 48px;
-  padding-top: 40px;
-}
-
 h3 {
   font-size: 24px;
   opacity: 0.7;
@@ -35,6 +30,14 @@ p {
   font-size: 18px;
   line-height: 1.5;
   text-align: center;
+}
+
+.name {
+  font-size: 68px;
+}
+.greeting {
+  font-size: 48px;
+  padding-top: 40px;
 }
 
 .navigation-links {
@@ -137,4 +140,13 @@ p {
 
 .contact-label h2 {
   font-size: 42px;
+}
+
+@media (max-width: 768px) {
+  .greeting {
+    font-size: 40px;
+  }
+  .name {
+    font-size: 60px;
+  }
 }
